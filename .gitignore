@@ -1,0 +1,9 @@
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.xccheckout
+*.moved-aside
+TuringEnigma.xcodeproj/project.xcworkspace/xcuserdata/
+AGENTS.md
