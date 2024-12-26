@@ -327,8 +327,8 @@ enum ViewportSelfTest {
             }
 
             coordinator.viewport(view, didZoomBy: -1_000, precise: true)
-            if abs(distance(from: camera.position, to: target) - 4.80) > 0.01 {
-                failures.append("Enigma zoom-out did not clamp at 4.80 m")
+            if abs(distance(from: camera.position, to: target) - 2.80) > 0.01 {
+                failures.append("Enigma zoom-out did not clamp at 2.80 m")
             }
             coordinator.viewport(view, didZoomBy: 1_000, precise: true)
             if abs(distance(from: camera.position, to: target) - 0.55) > 0.01 {
@@ -458,8 +458,8 @@ enum ViewportSelfTest {
             }
 
             coordinator.viewport(view, didZoomBy: -1_000, precise: true)
-            if abs(distance(from: camera.position, to: target) - 7.80) > 0.01 {
-                failures.append("Bombe zoom-out did not clamp at 7.80 m")
+            if abs(distance(from: camera.position, to: target) - 5.80) > 0.01 {
+                failures.append("Bombe zoom-out did not clamp at 5.80 m")
             }
             coordinator.viewport(view, didZoomBy: 1_000, precise: true)
             if abs(distance(from: camera.position, to: target) - 1.05) > 0.01 {
