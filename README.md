@@ -183,5 +183,4 @@ Zoom is clamped to keep the camera inside the room:
 
 ## License
 
-All rights reserved.
-
+MIT License.
