@@ -364,7 +364,7 @@ final class SceneViewportCoordinator: SceneViewportInteractionDelegate {
     }
 
     private var distanceRange: ClosedRange<CGFloat> {
-        mode == .enigma ? 0.55...4.80 : 1.05...7.80
+        mode == .enigma ? 0.55...2.80 : 1.05...5.80
     }
 
     private var targetBounds: (
