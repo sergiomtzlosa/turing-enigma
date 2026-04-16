@@ -5,6 +5,8 @@ the **Turing–Welchman Bombe**. Both machines are rendered as detailed, interac
 models powered by SceneKit, with every configurable element editable via the 3D viewport
 and a SwiftUI inspector panel.
 
+![Turing Enigma](preview.png)
+
 The app can encipher a message on the Enigma and recover it with the Bombe in one
 coherent demo flow.
 
