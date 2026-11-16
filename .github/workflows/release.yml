@@ -11,7 +11,7 @@ permissions:
 env:
   PROJECT_NAME: TuringEnigma.xcodeproj
   SCHEME: TuringEnigma
-  APP_NAME: TuringEnigma
+  APP_NAME: Turing Enigma
   CONFIGURATION: Release
 
 jobs:
